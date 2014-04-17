@@ -1,7 +1,7 @@
 Launcher3
 =========
 
-更改官方的Launcher3(http://android.googlesource.com)使得可以在eclipse编译
+更改官方的Launcher3( http://android.googlesource.com )使得可以在eclipse编译
 
 * targetSdkVersion必须是19
 * 如果修改AndroidManifest.xml后有错误，project -> clean
