@@ -292,7 +292,7 @@ public class CropView extends TiledImageView implements OnScaleGestureListener {
                 float[] adjustment = mTempAdjustment;
                 mTempAdjustment[0] = 0;
                 mTempAdjustment[1] = 0;
-                if (edges.left > 0) {
+                if (edges.left > 0) { 
                     adjustment[0] = edges.left / scale;
                 } else if (edges.right < getWidth()) {
                     adjustment[0] = (edges.right - getWidth()) / scale;
